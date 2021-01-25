@@ -11,7 +11,7 @@ public class Base {
 	void opneBrowser() {
 		dr=new SafariDriver();
 		dr.get("https://www.facebook.com");
-		dr.manage().window().maximize();
+		
 		dr.findElement(By.id("email")).sendKeys("9292418652");
 		dr.findElement(By.id("pass")).sendKeys("Sh1$1234");
 		dr.findElement(By.name("login")).click();
