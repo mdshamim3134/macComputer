@@ -35,6 +35,10 @@ public class D1 implements I1,I2{
 	}
 	void P(String name) {
 		System.out.println("my name is"+name);
+		System.out.println(3);
+		System.out.println("my name"+name);
+		int p=9;
+		String a="dhaka";
 	}
 	
 
